@@ -95,7 +95,7 @@ function date_i18n( $dateformatstring, $unixtimestamp = false, $gmt = false ) {
 	}
 
 	/*
-	 * Store original value for language with untypical grammars.
+	 * Store original value for language with untypical grammars.	
 	 * See https://core.trac.wordpress.org/ticket/9396
 	 */
 	$req_format = $dateformatstring;
