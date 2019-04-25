@@ -149,7 +149,7 @@ class nokri_categories extends WP_Widget {
 		{
 			echo ( $args['before_title'] . apply_filters( 'widget_title', $instance['title'] ) . $args['after_title'] );
 		}
-		$categories = get_categories( array( 'orderby' => 'name', 'order'   => 'ASC' ) );
+		$categories = get_categories( array( 'taxonomy' => 'job_category' ,'orderby' => 'name', 'order'   => 'ASC' ) );
 		?>
         <div class="categories-module">
 		<?php

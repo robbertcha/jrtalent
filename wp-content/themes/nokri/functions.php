@@ -485,3 +485,4 @@ if ( ! function_exists( 'nokri_setup' ) ) :
 	}
 }
 add_action('wp_footer', 'nokri_footer_content',999);
+
